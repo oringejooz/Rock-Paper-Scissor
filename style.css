@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.box{
+    width: 500px;
+    background-color: navy;
+    margin: auto;
+    margin-top: 8px;
+    border: 5px dashed white;
+    outline: 1px solid black;
+    border-radius: 30px;
+}
+
+h1{ 
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-family: cursive;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 80px;
+}
+
+.image:hover{
+    border: 5px dashed rgb(113, 176, 17);
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: center;
+    gap: 8rem;
+}
+
+#Message{
+    margin-top: 10%;
+    max-width: 300px;
+    border: none;
+}
+
+h2{
+    color: white;
+    padding: 20px;
+    font-family: cursive;
+}
+
+.score{
+    display: flex;
+    width: 33%;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 10rem;
+    font-size: large;
+    font-family: cursive;
+}
